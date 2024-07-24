@@ -30,10 +30,22 @@ res.json({
 /* Write a request handler to return the correct response when a `GET` request is received to `/astronauts`. Choose the appropriate 
 function from the imported functions at the top of the `app.js` to get your data. */
 
+const PORT = 3001;
+
+
+
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
+
 // Task 2
 
 /* Write a request handler to return the correct response and perform the correct action when a `POST` request is received to 
 `/astronauts`. Choose the appropriate function from the imported functions at the top of the `app.js` to perform the action. */
+
+
+
 
 // Task 3
 
